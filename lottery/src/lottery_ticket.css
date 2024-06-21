@@ -1,0 +1,29 @@
+.heading{
+    text-align: center;
+
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.ticket{
+display: flex;
+flex-direction: column;
+justify-content: center;;
+align-items: center;
+margin: 15px;
+}
+
+span{
+    margin: 5px;
+    font-size: xx-large;
+    border: 2px solid white;
+    padding: 5px;
+}
+.message{
+    text-align: center;
+}
+.num{
+    margin-bottom: 20px;
+}
