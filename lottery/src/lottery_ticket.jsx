@@ -4,9 +4,11 @@ import {generateticket} from './helper';
 import { sum } from './helper';
 export default function Ticket()
 {
-   let[ticket,setticket]=useState(generateticket(3));
+   let[ticket,setticket]=useState([0,0,0]);
    let iswining=sum(ticket)===15;
-   
+   let buy=()=>{
+      setticket(generateticket(3));
+   }
 
  return(
     <>
@@ -24,7 +26,7 @@ export default function Ticket()
          <span>{ticket[2]}</span>
          </div>
 
-         <button>GENERATE TICKET</button>
+         <button onClick={buy}>BUY TICKET</button>
       </div>
       <div className="message">
       <h3>{iswining ? "HURRAY YOU WON!!":"PLAY AGAIN"}</h3>
