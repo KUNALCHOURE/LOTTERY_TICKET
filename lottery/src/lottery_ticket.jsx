@@ -16,6 +16,7 @@ export default function Ticket()
     <div className="heading">
       <h1>LOTTERY</h1>
       <p>Take lottery and get a chance to win prizes !!</p>
+      <p> If you got the sum 15 then you win</p>
 
       </div>
       <div className="ticket">
