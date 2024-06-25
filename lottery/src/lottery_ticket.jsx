@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './lottery_ticket.css'
 import {generateticket} from './helper';
 import { sum } from './helper';
+import confetti from 'canvas-confetti'
 export default function Ticket()
 {
    let[ticket,setticket]=useState([0,0,0]);
@@ -9,6 +10,19 @@ export default function Ticket()
    let buy=()=>{
       setticket(generateticket(3));
    }
+   const triggerConfetti = () => {
+      confetti({
+         particleCount: 200,
+         spread: 70,
+         origin: { y: 0.6 }
+      });
+   }
+   useEffect(()=>{
+      if(iswining){
+      triggerConfetti();
+      }
+
+   },[iswining]);
 
  return(
     <>
