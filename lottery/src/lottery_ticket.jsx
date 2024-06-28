@@ -34,7 +34,7 @@ export default function Ticket()
 
       </div>
       <div className="ticket">
-         <h3>TICKET</h3>
+         <h2>TICKET</h2>
          <div className="num">
          <span>{ticket[0]}</span>
          <span>{ticket[1]}</span>
