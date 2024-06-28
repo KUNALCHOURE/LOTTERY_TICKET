@@ -39,7 +39,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #333333; /* Charcoal */
+  background-color: #001f3f; /* Charcoal */
   cursor: pointer;
   transition: border-color 0.25s;
 }

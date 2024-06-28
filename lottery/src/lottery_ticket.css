@@ -19,6 +19,7 @@ span{
     margin: 5px;
     font-size: xx-large;
     border: 2px solid white;
+    border-radius: 5px;
     padding: 5px;
 }
 .message{
@@ -29,4 +30,7 @@ span{
 }
 p{
     font-size: large;
+}
+.num span{
+    background-color:#001f3f;
 }
