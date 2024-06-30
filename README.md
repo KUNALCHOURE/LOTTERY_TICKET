@@ -28,4 +28,6 @@ The Lottery Game is a simple web-based game where players can buy a lottery tick
 - **Confetti Animation**: Confetti is triggered upon winning.
 - **Dynamic Messages**: Displays a winning message or a prompt to play again.
 
+## Screenshot
+![Screenshot 2024-06-30 173029](https://github.com/KUNALCHOURE/LOTTERY_TICKET/assets/147177836/76f81511-211f-41ce-b233-148abda701ed)
 
