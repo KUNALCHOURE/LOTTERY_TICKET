@@ -1,7 +1,7 @@
 # Lottery Game
 
 ## Overview
-The Lottery Game is a simple web-based game where players can buy a lottery ticket. If the sum of the numbers on the ticket equals 15, the player wins and a confetti animation is triggered.
+The Lottery Game is a simple web-based game where players can buy a lottery ticket. If the sum of the numbers on the ticket equals 15, the player wins .
 
 ## How to Play
 
